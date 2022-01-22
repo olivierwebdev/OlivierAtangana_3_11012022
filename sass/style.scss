@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
-html, body, header, footer{
-    /* box-sizing: border-box; /* Opera/IE 8+ */
-font-family: 'Roboto',sans-serif;
-font-family: 'Shrikhand',cursive ;
-}
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css");
+
+$primaire :#9356DC ;
+$secondaire :#FF79DA;
+$tertiaire : #99E2D0;
+
+
 html{
-    width: auto;
-    margin: auto;
-    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
 }
-/* Spinner */
+.onglet{
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+body{
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto 0;
+}   
 .loadingscreen{
     position: fixed;
     top: 0;
@@ -52,30 +61,615 @@ html{
         animation: slide 2s infinite ease-in-out alternate;
         border-radius: 5px;
         }
+        
     }
-    @keyframes loading {
-        to {opacity: 0;visibility: hidden;}
-    }
-    @-moz-keyframes loading {
-        to {opacity: 0;}
-    }
-/* COULEURS SITE */
-/* Primaire */
-.violet{
-    color: #9356DC;
+@keyframes loading {
+    to {opacity: 0;visibility: hidden;}
 }
-/* Secondaire */
-.rose{
-    color: #FF79DA;
-    }
-/* Tertiaire */
-.vert{
-    color: #99E2D0;
+@-moz-keyframes loading {
+    to {opacity: 0;}
 }
-/* Texte */
-.noir{
+@keyframes slide {
+    to { margin-left: 90%;}
+    
+}
+@-moz-keyframes slide{
+    to { margin-left: 90%;}
+
+}
+@-webkit-keyframes slide{
+    to { margin-left: 90%;}
+}
+@-ms-keyframes slide{
+    to { margin-left: 90%;}
+}
+@-o-keyframes slide{
+    to { margin-left: 90%;}
+}
+.titrepage{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+    margin: 15px;
+
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 194, 194);
+    height: 40px;
+    font-weight: bold;
+}
+.explorer{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    padding: 20px;
+    font-size: 16Px;
+    text-align: center;
+}
+.explorer button{
+    color: white;
+    border-style: none;
+    background: linear-gradient( $secondaire,$primaire );
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+.gras{
+    font-weight: bold;
+    font-size: 25Px;
+}
+.cadreresto{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 30px 15px;
+}
+.restocontent{
+    width: 290px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.textgraph{
+    background-color: white;
+    margin-top: -3px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    
+
+}
+.restocontent a:visited{
+    color:black ;
+}
+.restocontent a:link{
+    text-decoration: none;
     color: black;
 }
-.blanc{
+
+.photo1{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+.fonctionnement{
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+.choix{
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+    text-align: start;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+   
+
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
     color: white;
+    background-color:$primaire;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-right: 20px;
+
+}
+.icon{
+    margin-right: 20px;
+    color: rgb(128, 128, 128);
+}
+.fonctionnement .choix:hover{
+    background-color: #fde6f7;
+}
+.choix:hover .icon{
+    color: $primaire;
+}
+.coeurfull{ 
+    font-size: 30Px;
+    margin-right: -34px;
+    color: white;
+    padding:2px;
+
+
+}
+.coeur{
+    color: black;
+    font-size: 30px;
+
+}
+.logocoeur:hover .coeur
+{
+color : white;
+}
+.logocoeur:hover .coeurfull{
+    background: -webkit-linear-gradient($secondaire,$primaire);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: relative;
+    transition:0.5s;
+    
+}
+.titrepied{
+    font-family: 'Shrikhand', cursive;
+    color: black;
+    padding-bottom: 15px;
+
+}
+.pied{
+    background-color: rgb(54, 54, 54);
+    padding: 5px 0px;
+}
+.pied li{
+    color: white;
+    line-height: 25px;
+}
+.pied a:visited{
+    color:white ;
+}
+.pied a:link{
+    text-decoration: none;
+    color: white;
+}
+.listpied{
+    list-style: none;
+    padding-left: 20px;
+}
+.tetemenu{
+    display: flex;
+    flex-direction: column;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+}
+.arrow{
+    position: relative;
+    right:50px
+
+}
+.phototetemenu{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+    
+}
+.menumenu{
+    background-color: #f5f5f5;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 10px;
+    margin-top: -50px;
+    position: relative;
+    overflow: hidden;
+}
+.titremenumenu{
+    display: flex;
+    justify-content: space-between;
+}
+.titremenuresto{
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+    color:black;
+
+}
+.textentrée{
+    margin: 10px;
+
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #99E2D0;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+.entrée{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 25px;
+}
+.casemenu{
+    padding:10px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+    overflow: hidden;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.titreplats{
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+}
+button{
+    color: white;
+    border-style: none;
+    background: linear-gradient( $secondaire,$primaire);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    margin: 25Px 50px ;
+    transition: 0.5s;
+}
+button:hover{
+    filter: brightness(125%);
+    transition: 0.5s;
+}
+.tetemenu a{
+    text-decoration: none;
+}
+.tetemenu a:visited{
+    color: black;
+}
+.restocontent:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.handcheck{
+    font-size: 9px;
+}
+.fourchette{
+    font-size: 12px;
+    margin-right: 2px;
+}
+.textplats{
+    width: auto;
+    transition: 0.5s;
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    max-width: 250px;
+    min-width: 250px;
+}
+.prix{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px 5px;
+}
+.check{
+    background-color: $tertiaire;
+    color: white;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    font-size: 25px;
+    transition : 0.5s;
+    margin: -10px -10px -10px 10px ;
+    i{
+    transform: rotate(180deg);
+    transition : 0.5s;
+    }
+}
+.textdescriptionplat{
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    font-size: 14px;
+
+}
+.delay0{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay1{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 0.50s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+          
+            
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay2{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+       }
+        .check{
+           
+      
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+
+}
+.delay3{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay4{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay5{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay6{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay7{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay8{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 2.25s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay9{
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    :hover{
+        .textplats{
+            max-width: 180px;
+            min-width: 180px;
+        }
+        .check{
+            i{
+                transform: rotate(0);
+                transition : 0.5s;
+            }
+        }
+    }
+}
+.delay10{ 
+    opacity: 0;
+    animation : delais 1s;
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes delais{
+    from {opacity: 0 }
+
+    to {opacity: 100};
+}
+@-webkit-keyframes delais{
+    from {opacity: 0}
+
+    to {opacity: 100};
+}
+@-moz-keyframes delais{
+    from {opacity: 0}
+
+    to {opacity: 100};
+}
+
+ @media (min-width:960px){
+    body{
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto 0;
+        
+    }    
+    
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .choix{
+        width: 70%;
+    }
+
+    .contentresto{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;   
+        column-gap: 15px;     
+
+     }
+     .restocontent{
+        width: 450px;
+    }
+    .pied{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-left: 0px;
+    }
+    .listpied{
+   padding-left: 0px
+    }
+    .textplats{
+   width: auto;
+   transition: 0.5s;
+   white-space: nowrap;
+   text-overflow:ellipsis ;
+   overflow: hidden;
+   max-width: 885px;
+   min-width: 885px;
+   
+   
+    }
+    .boutoncommande{
+   display: flex;
+   justify-content: center;
+    }
+    .cadreresto{
+   text-align: center;
+    }
+    .textgraph{
+   text-align: left;
+    }
 }
