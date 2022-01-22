@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+html, body, header, footer{
+    /* box-sizing: border-box; /* Opera/IE 8+ */
+font-family: 'Roboto',sans-serif;
+font-family: 'Shrikhand',cursive ;
+}
+html{
+    width: auto;
+    margin: auto;
+    max-width: 1440px;
+}
+/* Spinner */
+.loadingscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 95%;
+    animation: loading 1s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.loading{
+    width: 200px;
+    height: 20px;
+    border: 5px solid $primaire;
+    position: absolute;
+
+    border-radius: 10px;
+    .textload{
+        font-family: 'Shrikhand', cursive;
+        margin-left: 15%;
+        padding-top: 25px;
+        position: absolute;
+        font-size: 20px;
+        color: $secondaire;
+    }
+    .ball{
+        display: block;
+        width: 20px;
+        height: 100%;
+        background-color: $tertiaire;
+        -moz-animation: slide 2s infinite ease-in-out alternate;
+        -webkit-animation: slide 2s infinite ease-in-out alternate;
+        -ms-animation: slide 2s infinite ease-in-out alternate;
+        -o-animation: slide 2s infinite ease-in-out alternate;
+        animation: slide 2s infinite ease-in-out alternate;
+        border-radius: 5px;
+        }
+    }
+    @keyframes loading {
+        to {opacity: 0;visibility: hidden;}
+    }
+    @-moz-keyframes loading {
+        to {opacity: 0;}
+    }
+/* COULEURS SITE */
+/* Primaire */
+.violet{
+    color: #9356DC;
+}
+/* Secondaire */
+.rose{
+    color: #FF79DA;
+    }
+/* Tertiaire */
+.vert{
+    color: #99E2D0;
+}
+/* Texte */
+.noir{
+    color: black;
+}
+.blanc{
+    color: white;
+}
