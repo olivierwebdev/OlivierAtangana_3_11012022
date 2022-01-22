@@ -1,105 +1,167 @@
-<!-- GÉNÉRAL -->
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css" />
-    <script src="https://kit.fontawesome.com/1411eb13cf.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/ohmyfood.png">
-    <meta name="keywords" content="Restaurant">
+    <meta charset="UTF-8">
     <meta name="description" content="Restaurant">
-    <title>Ohmyfood</title>
+    <meta name="keywords" content="Restaurant">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f54845079.js" crossorigin="anonymous"></script>
+    <title>ohmyfood - Le délice des sens</title>
 </head>
-
 <body>
-    <header>
-        <div class="titre_page">
-            ohmyfood
-        </div>
-        <img>
+    <Header class="tetemenu">
+        <a href="index.html">
+            <div class="entete">
+                <div class="arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="titrepage">
+                    ohmyfood
+                </div>
+            </div>
+        </a>
 
-        </img>
-    </header>
-    <main>
-        <div class="resto">
-            <div>
-                <h2>Le délice des sens</h2>
+        <div>
+            <img class="phototetemenu" src="img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                alt="photo restaurant">
+        </div>
+    </Header>
+    <main class="menumenu">
+        <div class="titremenumenu">
+            <div class="titremenuresto">Le délice des sens</div>
+            <div class="logocoeur">
+                <span class="coeurfull"><i class="fas fa-heart"></i></span>
+                <span class="coeur"><i class="far fa-heart"></i></span>
             </div>
-            <div class="menu">
-                <div class="entree">
-                    <div>
-                        <h3>Tartare de thon</h3>
-                        <p>Assaisonné au yuzu</p>
-                        <span><strong>25€</strong></span>
+        </div>
+
+        <div class="entrée">
+            <div class="textentrée"><span class="underline">ENTR</span>EES</div>
+            <div class="delay0">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Tarte de thon</div>
+                        <div class="textdescriptionplat">Assaisonné au yuzu</div>
                     </div>
-                    <div>
-                        <h3>Bouchée de homard croustillant </h3>
-                        <p>Et sa farandole de petits légumes</p>
-                        <span><strong>35€</strong></span>
-                    </div>
-                    <div>
-                        <h3>Velouté de cèpes</h3>
-                        <p>Aux truffes</p>
-                        <span><strong>20€</strong></span>
-                    </div>
-                </div>
-                <div class="plat">
-                    <div>
-                        <h3>Poulet rôti aux herbes de Provence</h3>
-                        <p>Et sa crème de truffe</p>
-                        <span><strong>40€</strong></span>
-                    </div>
-                    <div>
-                        <h3>Langouste rôtie </h3>
-                        <p>Et ses légumes de saison</p>
-                        <span><strong>35€</strong></span>
-                    </div>
-                    <div>
-                        <h3>Côte de boeuf Angus</h3>
-                        <p>Et sa purée de panais</p>
-                        <span><strong>44€</strong></span>
-                    </div>
-                </div>
-                <div class="dessert">
-                    <div>
-                        <h3>Farandole de desserts</h3>
-                        <p>Du chef</p>
-                        <span><strong>18€</strong></span>
-                    </div>
-                    <div>
-                        <h3>Crème brulée</h3>
-                        <p>Revisitée</p>
-                        <span><strong>22€</strong></span>
-                    </div>
-                    <div>
-                        <h3>Tiramisu</h3>
-                        <p>À la noisette</p>
-                        <span><strong>23€</strong></span>
-                    </div>
+                    <div class="prix"><strong> 25€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
                 </div>
             </div>
-            <div class="btn_commander">Commander</div>
+
+            <div class="delay1">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Bouchée de homard croustillant</div>
+                        <div class="textdescriptionplat">Et sa farandole de petits légumes</div>
+                    </div>
+                    <div class="prix"><strong>35€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+
+            <div class="delay2">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats"> Velouté de cèpes</div>
+                        <div class="textdescriptionplat">Aux truffes</div>
+                    </div>
+                    <div class="prix"><strong> 20€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="entrée">
+            <div class="textentrée"><span class="underline">PLAT</span>S</div>
+            <div class="delay3">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Poulet rôti aux herbes de provence</div>
+                        <div class="textdescriptionplat">Et sa crème de truffe</div>
+                    </div>
+                    <div class="prix"><strong>40€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+            <div class="delay4">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Langouste rôtie</div>
+                        <div class="textdescriptionplat">Et ses légumes de saison</div>
+                    </div>
+                    <div class="prix"><strong> 35€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+            <div class="delay5">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Côte de boeuf angus</div>
+                        <div class="textdescriptionplat">Et sa purée de panais</div>
+                    </div>
+                    <div class="prix"><strong>44€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="entrée">
+            <div class="textentrée"><span class="underline"> DESS</span>ERTS</div>
+            <div class="delay6">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Farandole de desserts</div>
+                        <div class="textdescriptionplat">Du chef</div>
+                    </div>
+                    <div class="prix"><strong> 18€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+            <div class="delay7">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Crème brulée</div>
+                        <div class="textdescriptionplat">Revisitée</div>
+                    </div>
+                    <div class="prix"><strong> 22€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+            <div class="delay8">
+                <div class="casemenu">
+                    <div class="textplats">
+                        <div class="titreplats">Tiramisu</div>
+                        <div class="textdescriptionplat">A la noisette</div>
+                    </div>
+                    <div class="prix"><strong>23€</strong></div>
+                    <div class="check"><i class="fas fa-check-circle"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="boutoncommande">
+            <button>Commander</button>
         </div>
     </main>
-    <footer class="pied">
+    <Footer class="pied">
         <ul class="listpied">
-            <li class="titrepied">ohmyfood</li>
-            <li>
-                <span class="fourchette">
-                    <i class="fas fa-utensils"></i>
-                </span>
-                <a href="#">Proposez un restaurant</a>
+            <li class="titrepied">
+                ohmyfood
             </li>
             <li>
-                <span class="handcheck">
-                    <i class="fas fa-hands-helping"></i>
-                </span>
+                <span class="fourchette"><i class="fas fa-utensils"></i></span>
+                <a href="#"> Proposer un restaurant</a>
+            </li>
+            <li>
+                <span class="handcheck"><i class="fas fa-hands-helping"></i></span>
                 <a href="#">Devenir partenaire</a>
             </li>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">contact</a></li>
+            <li>
+                <a href="#">Mentions légales</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </Li>
         </ul>
-    </footer>
+    </Footer>
 </body>
+
+</html>
