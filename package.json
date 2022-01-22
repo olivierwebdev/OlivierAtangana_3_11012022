@@ -1,0 +1,22 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "P3 OC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivierwebdev/OlivierAtangana_3_11012022.git"
+  },
+  "keywords": [
+    "p3"
+  ],
+  "author": "olivier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olivierwebdev/OlivierAtangana_3_11012022/issues"
+  },
+  "homepage": "https://github.com/olivierwebdev/OlivierAtangana_3_11012022#readme"
+}
