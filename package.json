@@ -1,10 +1,10 @@
 {
   "name": "p3",
   "version": "1.0.0",
-  "description": "P3 OC",
+  "description": "p3 oc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:.p3/CSS/style.css"
   },
   "repository": {
     "type": "git",
