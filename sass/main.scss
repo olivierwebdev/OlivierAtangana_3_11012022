@@ -39,8 +39,8 @@ body{
     height: 20px;
     border: 5px solid $primaire;
     position: absolute;
-
     border-radius: 10px;
+    
     .textload{
         font-family: 'Shrikhand', cursive;
         margin-left: 15%;
@@ -87,22 +87,27 @@ body{
     to { margin-left: 90%;}
 }
 .titrepage{
-    color:black;
+    color:rgb(31, 30, 30);
     display: flex;
     justify-content: center;
     font-family: 'Shrikhand', cursive;
     font-size: 25px;
     margin: 15px;
 
+
 }
 .loc{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(196, 194, 194);
+    background-color: #e5e8e8;
     height: 40px;
     font-weight: bold;
 }
+.loc_txt{
+    margin-left: 10px;
+}
+
 .explorer{
     background-color: rgb(247, 247, 247);
     display: flex;
@@ -208,6 +213,13 @@ body{
 .choix:hover .icon{
     color: $primaire;
 }
+.contentresto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
 .coeurfull{ 
     font-size: 30Px;
     margin-right: -34px;
@@ -270,6 +282,8 @@ color : white;
     align-items: center;
     justify-content: center;
     height:50px;
+    box-shadow: 0px 2px 0px 0px rgba(211 ,211 , 211, .9);
+    position: relative;
 }
 .arrow{
     position: relative;
