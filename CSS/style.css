@@ -95,7 +95,7 @@ body {
   }
 }
 .titrepage {
-  color: black;
+  color: #1f1e1e;
   display: flex;
   justify-content: center;
   font-family: "Shrikhand", cursive;
@@ -107,9 +107,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c4c2c2;
+  background-color: #e5e8e8;
   height: 40px;
   font-weight: bold;
+}
+
+.loc_txt {
+  margin-left: 10px;
 }
 
 .explorer {
@@ -226,6 +230,14 @@ body {
   color: #9356DC;
 }
 
+.contentresto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
 .coeurfull {
   font-size: 30Px;
   margin-right: -34px;
@@ -293,6 +305,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 50px;
+  box-shadow: 0px 2px 0px 0px rgba(211, 211, 211, 0.9);
+  position: relative;
 }
 
 .arrow {
