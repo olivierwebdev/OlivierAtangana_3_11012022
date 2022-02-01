@@ -705,7 +705,17 @@ button:hover {
 }
 @media (min-width: 768px) {
   body {
-    max-width: 959px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .contentresto {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .restocontent {
+    margin: 20px;
   }
 }
 
