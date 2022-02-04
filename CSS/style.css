@@ -701,24 +701,25 @@ button:hover {
     text-align: left;
   }
 }
-@media (min-width: 768px) {
-  body {
-    max-width: 968px;
-    width: 100%;
-  }
-
-  .contentresto {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .restocontent {
-    margin: 20px;
-  }
-
-  .casemenu {
-    margin: 3px;
-  }
-}
+/*
+@media (min-width:768px){
+    body{
+        max-width: 968px;
+        width: 100%;
+    }
+    .contentresto {
+        display: flex;
+        flex-direction: row;
+      }
+    .restocontent {
+        margin: 20px;
+      }
+      .casemenu{
+        margin: 3px;
+    }
+    .prix{
+        margin-left: 485px;
+    }
+} */
 
 /*# sourceMappingURL=style.css.map */

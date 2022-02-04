@@ -651,17 +651,17 @@ button:hover{
         flex-direction: row;
 
      }
-     .restocontent{
+    .restocontent{
         width: 450px;
     }
     .pied{
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 0px;
     }
     .listpied{
-   padding-left: 0px
+        padding-left: 0px
     }
     .textplats{
    width: auto;
@@ -675,16 +675,17 @@ button:hover{
    
     }
     .boutoncommande{
-   display: flex;
-   justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     .cadreresto{
-   text-align: center;
+        text-align: center;
     }
     .textgraph{
-   text-align: left;
+        text-align: left;
     }
 }
+/*
 @media (min-width:768px){
     body{
         max-width: 968px;
@@ -700,4 +701,7 @@ button:hover{
       .casemenu{
         margin: 3px;
     }
-}
+    .prix{
+        margin-left: 485px;
+    }
+} */
