@@ -644,10 +644,6 @@ button:hover{
         width: 70%;
         margin: 20px;
     }
-    
-    .restocontent{
-        width: 450px;
-    }
     .pied{
         display: flex;
         justify-content: center;
@@ -658,15 +654,13 @@ button:hover{
         padding-left: 0px
     }
     .textplats{
-   width: auto;
-   transition: 0.5s;
-   white-space: nowrap;
-   text-overflow:ellipsis ;
-   overflow: hidden;
-   max-width: 885px;
-   min-width: 885px;
-   
-   
+        width: auto;
+        transition: 0.5s;
+        white-space: nowrap;
+        text-overflow:ellipsis ;
+        overflow: hidden;
+        max-width: 885px;
+        min-width: 885px;
     }
     .boutoncommande{
         display: flex;

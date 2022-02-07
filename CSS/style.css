@@ -657,10 +657,6 @@ button:hover {
     margin: 20px;
   }
 
-  .restocontent {
-    width: 450px;
-  }
-
   .pied {
     display: flex;
     justify-content: center;
