@@ -652,6 +652,10 @@ button:hover {
     align-items: center;
   }
 
+  .centerTitleDesktop {
+    text-align: center;
+  }
+
   .choix {
     width: 70%;
     margin: 20px;
@@ -709,6 +713,7 @@ button:hover {
 
   .restocontent {
     margin: 20px;
+    width: 340px;
   }
 
   .casemenu {
