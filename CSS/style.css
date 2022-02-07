@@ -711,6 +711,12 @@ button:hover {
     width: 100%;
   }
 
+  .contentresto {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
   .restocontent {
     margin: 20px;
   }
