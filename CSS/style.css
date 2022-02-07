@@ -659,8 +659,8 @@ button:hover {
 
   .contentresto {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
   }
 
   .restocontent {
@@ -709,11 +709,6 @@ button:hover {
   body {
     max-width: 768px;
     width: 100%;
-  }
-
-  .contentresto {
-    display: flex;
-    flex-direction: row;
   }
 
   .restocontent {
