@@ -657,12 +657,6 @@ button:hover {
     margin: 20px;
   }
 
-  .contentresto {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-  }
-
   .restocontent {
     width: 450px;
   }
