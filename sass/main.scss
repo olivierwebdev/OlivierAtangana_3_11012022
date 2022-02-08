@@ -626,10 +626,32 @@ button:hover{
 
     to {opacity: 100};
 }
-
- @media (min-width:1280px){
+@media (min-width:768px){
     body{
-        max-width: 1280px;
+        max-width: 960px;
+        width: 100%;
+    }
+    .contentresto{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+
+     }
+    .restocontent {
+        margin: 20px;
+        width: 360px;
+      }
+      .casemenu{
+        margin: 3px;
+    }
+    .prix{
+        margin-left: 445px;
+    }
+    
+}
+ @media (min-width:960px){
+    body{
+        max-width: 960px;
         width: 100%;
         margin: 0 auto 0;
         
@@ -637,12 +659,17 @@ button:hover{
     
     .fonctionnement{
         display: flex;
+        align-items: center;
 
     }
     .choix{
         width: 70%;
         margin: 20px;
     }
+    .restocontent {
+        margin: 20px;
+        width: 440px;
+      }
     .pied{
         display: flex;
         justify-content: center;
@@ -676,26 +703,3 @@ button:hover{
       }
 }
 
-@media (min-width:768px){
-    body{
-        max-width: 768px;
-        width: 100%;
-    }
-    .contentresto{
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row wrap;
-
-     }
-    .restocontent {
-        margin: 20px;
-        width: 340px;
-      }
-      .casemenu{
-        margin: 3px;
-    }
-    .prix{
-        margin-left: 445px;
-    }
-    
-}
