@@ -664,6 +664,17 @@ button:hover {
   .prix {
     margin-left: 485px;
   }
+
+  .pied {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .listpied {
+    padding-left: 0px;
+  }
 }
 @media (min-width: 960px) {
   body {
@@ -687,17 +698,12 @@ button:hover {
     width: 440px;
   }
 
-  .pied {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 0px;
-  }
-
-  .listpied {
-    padding-left: 0px;
-  }
-
+  /*.pied{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-left: 0px;
+  }*/
   .textplats {
     width: auto;
     transition: 0.5s;
