@@ -668,22 +668,20 @@ button:hover{
     .fonctionnement{
         display: flex;
         align-items: center;
-
     }
+    .first{
+        padding:10px
+        }
     .choix{
         width: 70%;
-        margin: 20px;
+        margin-right: 10px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
     .restocontent {
         margin: 20px;
         width: 440px;
-      }
-    /*.pied{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-    }*/
+    }
     
     .textplats{
         width: auto;
