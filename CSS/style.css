@@ -662,7 +662,7 @@ button:hover {
   }
 
   .prix {
-    margin-left: 445px;
+    margin-left: 485px;
   }
 }
 @media (min-width: 960px) {
@@ -722,7 +722,7 @@ button:hover {
   }
 
   .prix {
-    margin-left: -190px;
+    margin-left: 0px;
   }
 }
 
